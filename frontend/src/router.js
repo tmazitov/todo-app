@@ -10,7 +10,7 @@ import All from './pages/All.vue'
 const routes = [
     { name: "all", component: All, path: "/all" },
     { name: "today", component: Today, path: "/" },
-    { name: "topic", component: Topic, path: "/topic/:topicId" },
+    { name: "topic", component: Topic, path: "/topic/:topicName" },
     { name: "settings", component: Settings, path: "/settings" },
 ]
 

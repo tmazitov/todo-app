@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Title title="Topic"/>
+        <Title :title="$route.params.topicName"/>
     </div>
 </template>
 

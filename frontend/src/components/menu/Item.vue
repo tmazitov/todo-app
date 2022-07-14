@@ -26,9 +26,8 @@ export default {
 }
 
 .menu__item:hover{
-    background: white;
     border: 1px solid rgba(255, 255, 255, );
-    color: rgb(0, 0, 0);
+    color: #45A4B7;
     cursor: pointer;
 }
 
